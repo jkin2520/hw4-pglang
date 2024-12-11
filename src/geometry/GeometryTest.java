@@ -47,7 +47,7 @@ public class GeometryTest {
         // Attempts to retrieve the geometry at index 0
 
         assertNotNull(found);
-        // Verifies that the retrieved geometry is not null
+        // Ensures that the retrieved geometry is not null
 
         assertTrue(found instanceof Triangle);
         // Checks that the retrieved geometry is an instance of Triangle
